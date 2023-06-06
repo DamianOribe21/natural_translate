@@ -45,7 +45,7 @@ const selectTones = (tonesSelected) => {
 };
 
 const translate = () => {
-  fetch("https://damianoribe21.github.io/natural-translate/translate/", {
+  fetch("http://localhost:3001/translate", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
