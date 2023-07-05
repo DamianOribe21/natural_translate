@@ -291,7 +291,7 @@ const translate = () => {
             <span class="sr-only">Translate</span>
           </button>
 
-          <div class="flex-auto ">
+          <div class="flex-auto">
             <textarea
               class="w-full h-full rounded-xl border-none overflow-y-auto resize-none bg-slate-100"
               v-model="outputText"
