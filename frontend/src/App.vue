@@ -46,7 +46,7 @@ const selectTones = (tonesSelected) => {
 
 const translate = () => {
   fetch("https://main.d2qoceapddmm1n.amplifyapp.com/translate", {
-    method: "PUT",
+    method: "POST",
     headers: {
       "Content-Type": "application/json",
     },

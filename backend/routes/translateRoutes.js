@@ -16,7 +16,7 @@ router.use((req, res, next) => {
   next();
 });
 
-router.put('/', async (req, res) => {
+router.post('/', async (req, res) => {
   const { document, prompt } = req.body;
 
   try {
