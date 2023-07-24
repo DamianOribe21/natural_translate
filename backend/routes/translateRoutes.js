@@ -31,7 +31,7 @@ router.post('/', async (req, res) => {
 
     res.json({ data: edit });
   } catch (error) {
-    console.error('Error al crear una edición de texto:', error);
+    console.error('Error al crear una edición de texto:', error.message);
     res.status(500).json({ error: 'Error al crear una edición de texto' });
   }
 });

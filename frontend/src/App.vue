@@ -45,7 +45,7 @@ const selectTones = (tonesSelected) => {
 };
 
 const translate = () => {
-  fetch("https://natural-translate.onrender.com/api/translate", {
+  fetch("http://localhost:3001/api/translate", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
