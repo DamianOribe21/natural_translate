@@ -27,9 +27,6 @@ router.post('/', async (req, res) => {
       "temperature": 0.3
     });
 
-    console.log(result.data.choices[0].text);
-
-    // const edit = result.edits[0].output;
     const edit = result.data.choices[0].text;
 
     res.json({ data: edit });
