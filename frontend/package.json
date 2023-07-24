@@ -8,6 +8,9 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  "engines": {
+    "node": "18.15.0"
+  },
   "dependencies": {
     "flowbite": "^1.6.5",
     "vue": "^3.2.47"
